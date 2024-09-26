@@ -54,4 +54,15 @@ export { default as TemplateSolid } from "./TemplateSolid";
 export { default as AuditLogsSolid } from "./AuditLogsSolid";
 export { default as HomeCurvedSolid } from "./HomeCurvedSolid";
 export { default as LetterSolid } from "./LetterSolid";
-
+export { default as VisitNoteSolid } from "./VisitNoteSolid";
+export { default as SortTable } from "./SortTable";
+export { default as Star } from "./Star";
+export { default as UserAccount } from "./UserAccount";
+export { default as CustomerSupport } from "./CustomerSupport";
+export { default as Medal } from "./Medal";
+export { default as Setting } from "./Setting";
+export { default as FilterSolid } from "./FilterSolid";
+export { default as MoreCircle } from "./MoreCircle";
+export { default as Message } from "./Message";
+export { default as AddSquare } from "./AddSquare";
+export { default as RemoveSquare } from "./RemoveSquare";

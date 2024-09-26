@@ -1,12 +1,12 @@
 import React from 'react';
-import { LetterSolid } from './icons_new/index';
+import { VisitNoteSolid } from './icons_new/index';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <LetterSolid width={100} height={100} fillColor='black'/>
+        <VisitNoteSolid width={100} height={100} fillColor='black'/>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
