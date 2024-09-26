@@ -1,0 +1,11 @@
+import React from "react";
+import { SVGIconProps } from "./SVGIconProps";
+function ArrowRightAlt(props: SVGIconProps) {
+  const { width = 24, height = 24, fillColor = "#7A869A", onClick } = props;
+  return (
+  <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={onClick}>
+    <path d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6" stroke={fillColor} stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  );
+}
+export default ArrowRightAlt;
